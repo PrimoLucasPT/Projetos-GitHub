@@ -43,25 +43,6 @@ Install dependencies:
 pip install pandas numpy scikit-learn scipy
 ```
 
-##  Usage
-
-1. **Clone the repository**:
-```bash
-git clone https://github.com/yourusername/primeira-liga-prediction.git
-cd primeira-liga-prediction
-```
-
-2. **Run the notebook**:
-```bash
-jupyter notebook ligaportugalpred.ipynb
-```
-
-3. **Key cells to run**:
-   - Data scraping cells (handles rate limiting)
-   - Feature engineering pipeline
-   - Model training and prediction
-   - Results visualization
-
 ## Project Structure
 
 ```
@@ -70,7 +51,7 @@ jupyter notebook ligaportugalpred.ipynb
 └── README.md                 # This file
 ```
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Collection
 - Scrapes FBref for seasons 2014-2015 through 2025-2026
